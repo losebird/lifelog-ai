@@ -1,0 +1,8 @@
+{
+  "name": "LifeLog AI",
+  "description": "An intelligent life logging and insight application that helps users seamlessly record, integrate, and analyze various aspects of their lives. Leveraging AI, it automatically organizes information, identifies action items, and uncovers valuable insights to foster personal growth and productivity.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

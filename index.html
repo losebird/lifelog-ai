@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLog AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#F98C53',
+              'brand-secondary': '#E5723A',
+              'brand-accent': '#FCCEB4',
+              'base-background': '#FFFBF7',
+              'base-100': '#FFFFFF',
+              'base-200': '#FFFFFF',
+              'base-300': '#EAE5E3',
+              'text-primary': '#374151',
+              'text-secondary': '#6b7280',
+              // Colors for dynamic tags
+              'tag-peach-bg': '#FCCEB4',
+              'tag-peach-text': '#B56531',
+              'tag-green-bg': '#D2E0AA',
+              'tag-green-text': '#5A6B42',
+              'tag-sky-bg': '#B0EBFF',
+              'tag-sky-text': '#006D99',
+              'tag-blue-bg': '#ABD7FB',
+              'tag-blue-text': '#005082',
+              'tag-orange-bg': '#FDDCC4',
+              'tag-orange-text': '#C75D20',
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FFFBF7; /* base-background */
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^9.0.1",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.0",
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^4.4.179"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
